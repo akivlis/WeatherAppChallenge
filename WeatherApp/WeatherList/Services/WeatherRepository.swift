@@ -29,10 +29,6 @@ class WeatherDataRepository: WeatherRepository {
     func getWeatherData(for latitude: Double, longitude: Double) -> AnyPublisher<[WeatherDayData], Error> {
         // TODO: if no remote data, return local data
 
-        if networkConnection == .offline {
-
-        }
-
         remoteDataSource.getWeatherData(for: latitude, longitude: longitude)
 
 

@@ -9,7 +9,7 @@ import Foundation
 
 struct Endpoint {
 
-    static let APIKey = "663285777b306141a5deb0e85f9aef84"
+    static let APIKey = ""
     static let BaseURL = URL(string: "https://api.openweathermap.org/data/2.5/onecall")!
 
     static let BaseURLString = "https://api.openweathermap.org/data/2.5/onecall"
